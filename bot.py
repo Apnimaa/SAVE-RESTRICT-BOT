@@ -42,9 +42,9 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             "Rexbots Login",
-            api_id=API_ID,
-            api_hash=API_HASH,
-            bot_token=BOT_TOKEN,
+            api_id="27433400",
+            api_hash="1a286620de5ffe0a7d9b57e604293555",
+            bot_token="",
             plugins=dict(root="Rexbots"),
             workers=50,
             sleep_threshold=10
