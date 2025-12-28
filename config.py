@@ -6,7 +6,7 @@
 # Don't Remove Credit 
 # Telegram Channel @RexBots_Official
 import os
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7487187952:AAGgwE5a6kJVFdofORRCqcouq_ReBkqz2Bg")
 API_ID = int(os.environ.get("API_ID", "27433400"))
 API_HASH = os.environ.get("API_HASH", "1a286620de5ffe0a7d9b57e604293555")
 ADMINS = [int(id) for id in os.environ.get("ADMINS", "6201066540").split(",")]
