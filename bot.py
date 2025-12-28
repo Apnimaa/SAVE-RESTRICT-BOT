@@ -44,7 +44,7 @@ class Bot(Client):
             "Rexbots Login",
             api_id="27433400",
             api_hash="1a286620de5ffe0a7d9b57e604293555",
-            bot_token="",
+            bot_token="7487187952:AAGgwE5a6kJVFdofORRCqcouq_ReBkqz2Bg",
             plugins=dict(root="Rexbots"),
             workers=50,
             sleep_threshold=10
