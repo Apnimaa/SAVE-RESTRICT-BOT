@@ -12,6 +12,7 @@ API_HASH = os.environ.get("API_HASH", "")
 ADMINS = [int(id) for id in os.environ.get("ADMINS", "").split(",")]
 DB_URI = os.environ.get("DB_URI", "")
 DB_NAME = os.environ.get("DB_NAME", "REXSaveRestricted")
+LOG_CHANNEL=os.environ.get("LOG_CHANNEL","-1003182485007")
 ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', True))
 KEEP_ALIVE_URL = os.environ.get("KEEP_ALIVE_URL", "")
 # Rexbots
